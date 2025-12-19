@@ -31,7 +31,7 @@ export function MemoryLane({ title, subtitle, memories }: MemoryLaneProps) {
 
             <div className="relative w-full">
                 {/* Scroll Container */}
-                <div className="flex gap-4 overflow-x-auto px-6 pb-8 snap-x snap-mandatory snap-always scrollbar-hide touch-pan-x">
+                <div className="flex gap-4 overflow-x-auto px-6 pb-8 snap-x snap-mandatory snap-always scrollbar-hide">
                     {memories.map((memory, i) => (
                         <MemoryCard key={memory.id} memory={memory} index={i} />
                     ))}
