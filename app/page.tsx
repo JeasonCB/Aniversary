@@ -68,7 +68,7 @@ export default function Home() {
       <section className="h-dvh w-full snap-center shrink-0 relative flex flex-col justify-center items-center px-6">
         <div className="absolute top-12 left-6 flex justify-between items-start w-[calc(100%-3rem)]">
           <span className="text-[10px] tracking-[0.3em] uppercase opacity-40">Est. 2025</span>
-
+          <span className="text-[10px] tracking-[0.3em] uppercase opacity-40">Para que nunca lo olvidemos 💓</span>
         </div>
 
         <div className="text-center z-10">
@@ -128,7 +128,7 @@ export default function Home() {
         />
 
         <footer className="relative w-full text-center pb-4">
-          <p className="font-serif italic text-lg text-white">Siempre tuyo, Steven 🥰</p>
+          <p className="font-serif italic text-lg text-white">Para el amor de mi vida: Ivanna 💓, De parte de Steven siempre tuyo 🥰</p>
         </footer>
       </section>
       {/* SECTION 4: THROWBACK 
