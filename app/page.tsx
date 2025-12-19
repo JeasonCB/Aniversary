@@ -120,7 +120,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 3: RECENT MEMORIES */}
-      <section className="h-dvh w-full snap-center shrink-0 relative flex flex-col justify-center">
+      <section className="h-dvh w-full snap-center shrink-0 relative flex flex-col justify-center touch-auto">
         <MemoryLane
           title="Momentos"
           subtitle="Colección"
